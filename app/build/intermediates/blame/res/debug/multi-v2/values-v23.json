@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/anhong-gyeong/Desktop/Babsajuseyo/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
+            "outputFile": "/Users/anhong-gyeong/Desktop/Android/Babsajuseyo/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/Users/anhong-gyeong/.gradle/caches/transforms-2/files-2.1/564df731b2ae558b08d65cce7d62e775/appcompat-1.1.0/res/values-v23/values-v23.xml",
+                    "source": "/Users/anhong-gyeong/.gradle/caches/transforms-2/files-2.1/1015e1965e1a9e61403dc0beaaa1933c/appcompat-1.1.0/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,37,41,42,43,44",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",

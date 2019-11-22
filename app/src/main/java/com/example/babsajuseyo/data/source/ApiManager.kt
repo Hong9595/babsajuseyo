@@ -27,7 +27,6 @@ object ApiManager{
         Retrofit.Builder()
             .baseUrl("https://api.themoviedb.org/3/")
             .client(okHttpClientBuilder.build())
-            //TODO: 여기 GSON, RestaurantRepo에서 gson
             .addConverterFactory(GsonConverterFactory.create(gson))
             .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
             .build()

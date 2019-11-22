@@ -28,7 +28,7 @@ class RestaurantListActivity : BaseActivity(),RestaurantContractor.View {
             setDisplayHomeAsUpEnabled(true)
         }
         presenter.attachView(this)
-        restaurantRecylcer.apply{
+        restaurantRecycler.apply{
             layoutManager = LinearLayoutManager(this@RestaurantListActivity)
             adapter = restaurantAdapter
         }

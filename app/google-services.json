@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "138263897375",
+    "firebase_url": "https://babsajuseyo.firebaseio.com",
+    "project_id": "babsajuseyo",
+    "storage_bucket": "babsajuseyo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138263897375:android:6e50b676a19a4ad418fc2a",
+        "android_client_info": {
+          "package_name": "com.example.babsajuseyo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "138263897375-edcm1vcgle735jb5lr61083r0kce7d3r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.babsajuseyo",
+            "certificate_hash": "e359a8bc7aef39fff16371036050f6b7f48329b1"
+          }
+        },
+        {
+          "client_id": "138263897375-coalbp26n0iprtjgjoggds6vb5n72rsa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuVBqWBcWyP5qmCixpQWUMnfWnqkb0cSA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "138263897375-coalbp26n0iprtjgjoggds6vb5n72rsa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
