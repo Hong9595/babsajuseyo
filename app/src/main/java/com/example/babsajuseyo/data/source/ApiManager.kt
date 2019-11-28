@@ -37,4 +37,8 @@ object ApiManager{
         restaurantAdapter.create(RestaurantApi::class.java)
     }
 
+
+
+
+
 }
