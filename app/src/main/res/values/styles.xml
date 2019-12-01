@@ -3,9 +3,28 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <!-- PrimaryDark : 상태바 // 앱 최상단(와이파이, 배터리등 색깔) -->
+        <!-- Primary : 액션바 색깔 -->
+        <item name="colorPrimaryDark">@color/black_900</item>
+        <item name="colorPrimary">@color/grey_50</item>
+        <!-- Theme만 적용해도 actionBar 글씨 색깔 변경됨. -->
+<!--        <item name="actionBarTheme">@style/MyApp.ActionBarTheme</item>-->
     </style>
+
+    <!-- MainActivity theme 따로 지정. NoActionBar이므로 colorPrimary는 어차피 안 먹힘. + Manifest에 바로 NoActionBar안 주는 이유는 colorPrimaryDark값 주기 위함.  -->
+    <style name="MainTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/black_900</item>
+    </style>
+
+    <!-- 툴바에 대한 theme은 따로 지정하여 xml toolbar에 theme 넣어줘야 함. MainActivity의 style이 NoActionBar이기 때문.  -->
+    <!-- Base.Widget.AppCompat.Toolbar이거 상속받지 말것. 이건 기본으로 gravity가 들어가있음.   -->
+    <style name="MyToolbarTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <!--  <item name="android:background">@color/white_900</item>  -->
+        <!-- ActionBar 화살표 색깔 지정 -->
+        <item name="android:colorControlNormal">@color/black_900</item>
+        <!--  툴바 밑에 shadow  -->
+        <item name="android:elevation">@dimen/spacing_100</item>
+    </style>
+
 
 </resources>

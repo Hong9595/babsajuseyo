@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Babsajuseyo</string>
+    <string name="searchHint">학교를 입력하세요. Ex) 광운대학교</string>
 </resources>

@@ -27,7 +27,14 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.babsajuseyo.restaurantList.RestaurantListActivity" />
+        <activity
+            android:name="com.example.babsajuseyo.searchSchool.SearchSchoolActivity"
+            android:theme="@style/MainTheme" >
+        </activity>
+        <activity
+            android:name="com.example.babsajuseyo.restaurantList.RestaurantListActivity"
+            android:theme="@style/MainTheme" >
+        </activity>
         <activity android:name="com.example.babsajuseyo.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -8,6 +8,7 @@ object Constants{
 
     // restaurant
     const val RESTAURANT_API_KEY = ""
-    const val FIRESTORE_RESTAURANT = "restaurant"
+    const val FIRESTORE_RESTAURANT = "Restaurant"
     const val RESTAURANT_DATA_NUM = 300
+    const val SCHOOL_RESTAURANT_FIELD = "nearSchool"
 }

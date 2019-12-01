@@ -5,8 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:paddingTop="@dimen/spacing_400"
     android:paddingBottom="@dimen/spacing_400"
-    android:paddingStart="@dimen/spacing_400"
-    android:paddingEnd="@dimen/spacing_400">
+    android:paddingStart="@dimen/spacing_400">
 
     <ImageView
         android:id="@+id/restaurantImage" android:layout_width="wrap_content" android:layout_height="wrap_content"

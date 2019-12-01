@@ -9,9 +9,6 @@ import com.example.babsajuseyo.entity.RestaurantData
 import com.example.babsajuseyo.restaurantList.RestaurantListActivity
 import com.example.babsajuseyo.util.Constants
 import com.google.firebase.firestore.FirebaseFirestore
-import io.reactivex.Observable
-import io.reactivex.Single
-import io.reactivex.SingleSource
 import kotlinx.android.synthetic.main.activity_main.*
 import org.apache.poi.hssf.usermodel.HSSFCell
 import org.apache.poi.hssf.usermodel.HSSFRow
@@ -19,7 +16,6 @@ import org.apache.poi.hssf.usermodel.HSSFWorkbook
 import org.apache.poi.poifs.filesystem.POIFSFileSystem
 import timber.log.Timber
 import java.io.InputStream
-import java.util.*
 
 /**
  *
@@ -34,7 +30,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        tempBtn.setOnClickListener { view ->
+        tempBtn.setOnClickListener {
             val intent = Intent(this,RestaurantListActivity::class.java)
             startActivity(intent)
         }
@@ -89,7 +85,7 @@ class MainActivity : AppCompatActivity() {
                         colno++
                     }
                     //4,8번째 열을 Mutablelist에 추가
-                    items.add(RestaurantData(imageUrl, title, address))
+                    items.add(RestaurantData(imageUrl, title, address,"광운대학교"))
                 }
                 rowno++
             }
@@ -107,11 +103,12 @@ class MainActivity : AppCompatActivity() {
         for(i in 0..Constants.RESTAURANT_DATA_NUM-1) {
             Timber.tag("CheckExcelFile").d(i.toString())
             val data = hashMapOf(
-                "ImageUrl" to items[i].ImageUrl,
+                "imageUrl" to items[i].imageUrl,
                 "address" to items[i].address,
-                "title" to items[i].title
+                "title" to items[i].title,
+                "nearSchool" to items[i].nearSchool
             )
-            db.collection("restaurant")
+            db.collection("Restaurant")
                 .add(data)
                 .addOnSuccessListener { documentReference->
                     Timber.d("DocumentSnapshot added with ID: ${documentReference.id}")
