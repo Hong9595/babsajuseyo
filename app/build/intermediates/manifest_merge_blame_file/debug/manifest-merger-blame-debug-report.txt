@@ -6,117 +6,117 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="24"
-8-->/Users/anhong-gyeong/Desktop/Android/Babsajuseyo/app/src/main/AndroidManifest.xml
+8-->C:\Users\a\Desktop\temp\babsajuseyo\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->/Users/anhong-gyeong/Desktop/Android/Babsajuseyo/app/src/main/AndroidManifest.xml
+9-->C:\Users\a\Desktop\temp\babsajuseyo\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/Users/anhong-gyeong/Desktop/Android/Babsajuseyo/app/src/main/AndroidManifest.xml:5:5-67
-11-->/Users/anhong-gyeong/Desktop/Android/Babsajuseyo/app/src/main/AndroidManifest.xml:5:22-64
+11-->C:\Users\a\Desktop\temp\babsajuseyo\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\a\Desktop\temp\babsajuseyo\app\src\main\AndroidManifest.xml:5:22-64
 12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-12-->/Users/anhong-gyeong/Desktop/Android/Babsajuseyo/app/src/main/AndroidManifest.xml:6:5-80
-12-->/Users/anhong-gyeong/Desktop/Android/Babsajuseyo/app/src/main/AndroidManifest.xml:6:22-77
+12-->C:\Users\a\Desktop\temp\babsajuseyo\app\src\main\AndroidManifest.xml:6:5-80
+12-->C:\Users\a\Desktop\temp\babsajuseyo\app\src\main\AndroidManifest.xml:6:22-77
 13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-13-->/Users/anhong-gyeong/Desktop/Android/Babsajuseyo/app/src/main/AndroidManifest.xml:7:5-81
-13-->/Users/anhong-gyeong/Desktop/Android/Babsajuseyo/app/src/main/AndroidManifest.xml:7:22-78
+13-->C:\Users\a\Desktop\temp\babsajuseyo\app\src\main\AndroidManifest.xml:7:5-81
+13-->C:\Users\a\Desktop\temp\babsajuseyo\app\src\main\AndroidManifest.xml:7:22-78
 14
 15    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
 16    <!-- <uses-sdk android:minSdkVersion="14" /> -->
 17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-17-->[com.google.firebase:firebase-firestore:21.3.0] /Users/anhong-gyeong/.gradle/caches/transforms-2/files-2.1/684872eecdae0cb38ccc76b23bd4bb17/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:13:5-79
-17-->[com.google.firebase:firebase-firestore:21.3.0] /Users/anhong-gyeong/.gradle/caches/transforms-2/files-2.1/684872eecdae0cb38ccc76b23bd4bb17/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:13:22-76
+17-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\a\.gradle\caches\transforms-2\files-2.1\6176b54c5d55349d6001fd0c08e13271\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:13:5-79
+17-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\a\.gradle\caches\transforms-2\files-2.1\6176b54c5d55349d6001fd0c08e13271\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:13:22-76
 18
 19    <application
-19-->/Users/anhong-gyeong/Desktop/Android/Babsajuseyo/app/src/main/AndroidManifest.xml:9:5-33:19
+19-->C:\Users\a\Desktop\temp\babsajuseyo\app\src\main\AndroidManifest.xml:9:5-33:19
 20        android:name="com.example.babsajuseyo.base.BaseApplication"
-20-->/Users/anhong-gyeong/Desktop/Android/Babsajuseyo/app/src/main/AndroidManifest.xml:10:9-45
+20-->C:\Users\a\Desktop\temp\babsajuseyo\app\src\main\AndroidManifest.xml:10:9-45
 21        android:allowBackup="true"
-21-->/Users/anhong-gyeong/Desktop/Android/Babsajuseyo/app/src/main/AndroidManifest.xml:11:9-35
+21-->C:\Users\a\Desktop\temp\babsajuseyo\app\src\main\AndroidManifest.xml:11:9-35
 22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-22-->[androidx.core:core:1.1.0] /Users/anhong-gyeong/.gradle/caches/transforms-2/files-2.1/99b2a3020bc0d67cb0f92da807f1bca9/core-1.1.0/AndroidManifest.xml:24:18-86
+22-->[androidx.core:core:1.1.0] C:\Users\a\.gradle\caches\transforms-2\files-2.1\99b2a3020bc0d67cb0f92da807f1bca9\core-1.1.0\AndroidManifest.xml:24:18-86
 23        android:debuggable="true"
 24        android:icon="@mipmap/ic_launcher"
-24-->/Users/anhong-gyeong/Desktop/Android/Babsajuseyo/app/src/main/AndroidManifest.xml:12:9-43
+24-->C:\Users\a\Desktop\temp\babsajuseyo\app\src\main\AndroidManifest.xml:12:9-43
 25        android:label="@string/app_name"
-25-->/Users/anhong-gyeong/Desktop/Android/Babsajuseyo/app/src/main/AndroidManifest.xml:13:9-41
+25-->C:\Users\a\Desktop\temp\babsajuseyo\app\src\main\AndroidManifest.xml:13:9-41
 26        android:roundIcon="@mipmap/ic_launcher_round"
-26-->/Users/anhong-gyeong/Desktop/Android/Babsajuseyo/app/src/main/AndroidManifest.xml:14:9-54
+26-->C:\Users\a\Desktop\temp\babsajuseyo\app\src\main\AndroidManifest.xml:14:9-54
 27        android:supportsRtl="true"
-27-->/Users/anhong-gyeong/Desktop/Android/Babsajuseyo/app/src/main/AndroidManifest.xml:15:9-35
+27-->C:\Users\a\Desktop\temp\babsajuseyo\app\src\main\AndroidManifest.xml:15:9-35
 28        android:testOnly="true"
 29        android:theme="@style/AppTheme" >
-29-->/Users/anhong-gyeong/Desktop/Android/Babsajuseyo/app/src/main/AndroidManifest.xml:16:9-40
+29-->C:\Users\a\Desktop\temp\babsajuseyo\app\src\main\AndroidManifest.xml:16:9-40
 30        <activity
-30-->/Users/anhong-gyeong/Desktop/Android/Babsajuseyo/app/src/main/AndroidManifest.xml:17:9-19:20
+30-->C:\Users\a\Desktop\temp\babsajuseyo\app\src\main\AndroidManifest.xml:17:9-19:20
 31            android:name="com.example.babsajuseyo.searchSchool.SearchSchoolActivity"
-31-->/Users/anhong-gyeong/Desktop/Android/Babsajuseyo/app/src/main/AndroidManifest.xml:17:19-68
+31-->C:\Users\a\Desktop\temp\babsajuseyo\app\src\main\AndroidManifest.xml:17:19-68
 32            android:theme="@style/MainTheme" >
-32-->/Users/anhong-gyeong/Desktop/Android/Babsajuseyo/app/src/main/AndroidManifest.xml:18:13-45
+32-->C:\Users\a\Desktop\temp\babsajuseyo\app\src\main\AndroidManifest.xml:18:13-45
 33        </activity>
 34        <activity
-34-->/Users/anhong-gyeong/Desktop/Android/Babsajuseyo/app/src/main/AndroidManifest.xml:21:9-24:20
+34-->C:\Users\a\Desktop\temp\babsajuseyo\app\src\main\AndroidManifest.xml:21:9-24:20
 35            android:name="com.example.babsajuseyo.restaurantList.RestaurantListActivity"
-35-->/Users/anhong-gyeong/Desktop/Android/Babsajuseyo/app/src/main/AndroidManifest.xml:22:13-66
+35-->C:\Users\a\Desktop\temp\babsajuseyo\app\src\main\AndroidManifest.xml:22:13-66
 36            android:theme="@style/MainTheme" >
-36-->/Users/anhong-gyeong/Desktop/Android/Babsajuseyo/app/src/main/AndroidManifest.xml:23:13-45
+36-->C:\Users\a\Desktop\temp\babsajuseyo\app\src\main\AndroidManifest.xml:23:13-45
 37        </activity>
 38        <activity android:name="com.example.babsajuseyo.MainActivity" >
-38-->/Users/anhong-gyeong/Desktop/Android/Babsajuseyo/app/src/main/AndroidManifest.xml:26:9-32:20
-38-->/Users/anhong-gyeong/Desktop/Android/Babsajuseyo/app/src/main/AndroidManifest.xml:26:19-47
+38-->C:\Users\a\Desktop\temp\babsajuseyo\app\src\main\AndroidManifest.xml:26:9-32:20
+38-->C:\Users\a\Desktop\temp\babsajuseyo\app\src\main\AndroidManifest.xml:26:19-47
 39            <intent-filter>
-39-->/Users/anhong-gyeong/Desktop/Android/Babsajuseyo/app/src/main/AndroidManifest.xml:27:13-31:29
+39-->C:\Users\a\Desktop\temp\babsajuseyo\app\src\main\AndroidManifest.xml:27:13-31:29
 40                <action android:name="android.intent.action.MAIN" />
-40-->/Users/anhong-gyeong/Desktop/Android/Babsajuseyo/app/src/main/AndroidManifest.xml:28:17-69
-40-->/Users/anhong-gyeong/Desktop/Android/Babsajuseyo/app/src/main/AndroidManifest.xml:28:25-66
+40-->C:\Users\a\Desktop\temp\babsajuseyo\app\src\main\AndroidManifest.xml:28:17-69
+40-->C:\Users\a\Desktop\temp\babsajuseyo\app\src\main\AndroidManifest.xml:28:25-66
 41
 42                <category android:name="android.intent.category.LAUNCHER" />
-42-->/Users/anhong-gyeong/Desktop/Android/Babsajuseyo/app/src/main/AndroidManifest.xml:30:17-77
-42-->/Users/anhong-gyeong/Desktop/Android/Babsajuseyo/app/src/main/AndroidManifest.xml:30:27-74
+42-->C:\Users\a\Desktop\temp\babsajuseyo\app\src\main\AndroidManifest.xml:30:17-77
+42-->C:\Users\a\Desktop\temp\babsajuseyo\app\src\main\AndroidManifest.xml:30:27-74
 43            </intent-filter>
 44        </activity>
 45
 46        <service
-46-->[com.google.firebase:firebase-firestore:21.3.0] /Users/anhong-gyeong/.gradle/caches/transforms-2/files-2.1/684872eecdae0cb38ccc76b23bd4bb17/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:17:9-23:19
+46-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\a\.gradle\caches\transforms-2\files-2.1\6176b54c5d55349d6001fd0c08e13271\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:17:9-23:19
 47            android:name="com.google.firebase.components.ComponentDiscoveryService"
-47-->[com.google.firebase:firebase-firestore:21.3.0] /Users/anhong-gyeong/.gradle/caches/transforms-2/files-2.1/684872eecdae0cb38ccc76b23bd4bb17/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:18:13-84
+47-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\a\.gradle\caches\transforms-2\files-2.1\6176b54c5d55349d6001fd0c08e13271\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:18:13-84
 48            android:directBootAware="true"
-48-->[com.google.firebase:firebase-common:19.3.0] /Users/anhong-gyeong/.gradle/caches/transforms-2/files-2.1/d13fe06a7c38b2925a690cf4b7004e21/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+48-->[com.google.firebase:firebase-common:19.3.0] C:\Users\a\.gradle\caches\transforms-2\files-2.1\851fca125b485ef3f4caae7633726e71\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
 49            android:exported="false" >
-49-->[com.google.firebase:firebase-firestore:21.3.0] /Users/anhong-gyeong/.gradle/caches/transforms-2/files-2.1/684872eecdae0cb38ccc76b23bd4bb17/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:19:13-37
+49-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\a\.gradle\caches\transforms-2\files-2.1\6176b54c5d55349d6001fd0c08e13271\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:19:13-37
 50            <meta-data
-50-->[com.google.firebase:firebase-firestore:21.3.0] /Users/anhong-gyeong/.gradle/caches/transforms-2/files-2.1/684872eecdae0cb38ccc76b23bd4bb17/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:20:13-22:85
+50-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\a\.gradle\caches\transforms-2\files-2.1\6176b54c5d55349d6001fd0c08e13271\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:20:13-22:85
 51                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-51-->[com.google.firebase:firebase-firestore:21.3.0] /Users/anhong-gyeong/.gradle/caches/transforms-2/files-2.1/684872eecdae0cb38ccc76b23bd4bb17/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:21:17-111
+51-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\a\.gradle\caches\transforms-2\files-2.1\6176b54c5d55349d6001fd0c08e13271\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:21:17-111
 52                android:value="com.google.firebase.components.ComponentRegistrar" />
-52-->[com.google.firebase:firebase-firestore:21.3.0] /Users/anhong-gyeong/.gradle/caches/transforms-2/files-2.1/684872eecdae0cb38ccc76b23bd4bb17/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:22:17-82
+52-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\a\.gradle\caches\transforms-2\files-2.1\6176b54c5d55349d6001fd0c08e13271\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:22:17-82
 53        </service>
 54
 55        <activity
-55-->[com.google.android.gms:play-services-base:17.0.0] /Users/anhong-gyeong/.gradle/caches/transforms-2/files-2.1/f86b188161e07a42aa72690bdabd8c5e/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+55-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\a\.gradle\caches\transforms-2\files-2.1\f86b188161e07a42aa72690bdabd8c5e\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
 56            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-56-->[com.google.android.gms:play-services-base:17.0.0] /Users/anhong-gyeong/.gradle/caches/transforms-2/files-2.1/f86b188161e07a42aa72690bdabd8c5e/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+56-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\a\.gradle\caches\transforms-2\files-2.1\f86b188161e07a42aa72690bdabd8c5e\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
 57            android:exported="false"
-57-->[com.google.android.gms:play-services-base:17.0.0] /Users/anhong-gyeong/.gradle/caches/transforms-2/files-2.1/f86b188161e07a42aa72690bdabd8c5e/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+57-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\a\.gradle\caches\transforms-2\files-2.1\f86b188161e07a42aa72690bdabd8c5e\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
 58            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-58-->[com.google.android.gms:play-services-base:17.0.0] /Users/anhong-gyeong/.gradle/caches/transforms-2/files-2.1/f86b188161e07a42aa72690bdabd8c5e/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+58-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\a\.gradle\caches\transforms-2\files-2.1\f86b188161e07a42aa72690bdabd8c5e\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
 59
 60        <provider
-60-->[com.google.firebase:firebase-common:19.3.0] /Users/anhong-gyeong/.gradle/caches/transforms-2/files-2.1/d13fe06a7c38b2925a690cf4b7004e21/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+60-->[com.google.firebase:firebase-common:19.3.0] C:\Users\a\.gradle\caches\transforms-2\files-2.1\851fca125b485ef3f4caae7633726e71\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
 61            android:name="com.google.firebase.provider.FirebaseInitProvider"
-61-->[com.google.firebase:firebase-common:19.3.0] /Users/anhong-gyeong/.gradle/caches/transforms-2/files-2.1/d13fe06a7c38b2925a690cf4b7004e21/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+61-->[com.google.firebase:firebase-common:19.3.0] C:\Users\a\.gradle\caches\transforms-2\files-2.1\851fca125b485ef3f4caae7633726e71\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
 62            android:authorities="com.example.babsajuseyo.firebaseinitprovider"
-62-->[com.google.firebase:firebase-common:19.3.0] /Users/anhong-gyeong/.gradle/caches/transforms-2/files-2.1/d13fe06a7c38b2925a690cf4b7004e21/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+62-->[com.google.firebase:firebase-common:19.3.0] C:\Users\a\.gradle\caches\transforms-2\files-2.1\851fca125b485ef3f4caae7633726e71\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
 63            android:exported="false"
-63-->[com.google.firebase:firebase-common:19.3.0] /Users/anhong-gyeong/.gradle/caches/transforms-2/files-2.1/d13fe06a7c38b2925a690cf4b7004e21/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+63-->[com.google.firebase:firebase-common:19.3.0] C:\Users\a\.gradle\caches\transforms-2\files-2.1\851fca125b485ef3f4caae7633726e71\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
 64            android:initOrder="100" />
-64-->[com.google.firebase:firebase-common:19.3.0] /Users/anhong-gyeong/.gradle/caches/transforms-2/files-2.1/d13fe06a7c38b2925a690cf4b7004e21/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+64-->[com.google.firebase:firebase-common:19.3.0] C:\Users\a\.gradle\caches\transforms-2\files-2.1\851fca125b485ef3f4caae7633726e71\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
 65
 66        <meta-data
-66-->[com.google.android.gms:play-services-basement:17.0.0] /Users/anhong-gyeong/.gradle/caches/transforms-2/files-2.1/de0f8ffebd4535ff2236fe9c7b8aa38b/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+66-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\a\.gradle\caches\transforms-2\files-2.1\86fd8e8b4ff574d22a1207fac8f53b1f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
 67            android:name="com.google.android.gms.version"
-67-->[com.google.android.gms:play-services-basement:17.0.0] /Users/anhong-gyeong/.gradle/caches/transforms-2/files-2.1/de0f8ffebd4535ff2236fe9c7b8aa38b/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+67-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\a\.gradle\caches\transforms-2\files-2.1\86fd8e8b4ff574d22a1207fac8f53b1f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
 68            android:value="@integer/google_play_services_version" />
-68-->[com.google.android.gms:play-services-basement:17.0.0] /Users/anhong-gyeong/.gradle/caches/transforms-2/files-2.1/de0f8ffebd4535ff2236fe9c7b8aa38b/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+68-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\a\.gradle\caches\transforms-2\files-2.1\86fd8e8b4ff574d22a1207fac8f53b1f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
 69    </application>
 70
 71</manifest>

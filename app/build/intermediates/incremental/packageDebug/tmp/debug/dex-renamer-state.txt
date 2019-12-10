@@ -1,10 +1,10 @@
-#Mon Dec 02 00:47:18 KST 2019
+#Tue Dec 10 20:50:26 KST 2019
 path.2=classes2.dex
 path.1=classes.dex
 path.0=classes.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
-base.2=/Users/anhong-gyeong/Desktop/Android/Babsajuseyo/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes2.dex
-base.1=/Users/anhong-gyeong/Desktop/Android/Babsajuseyo/app/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex
-base.0=/Users/anhong-gyeong/Desktop/Android/Babsajuseyo/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
+base.2=C\:\\Users\\a\\Desktop\\temp\\babsajuseyo\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes2.dex
+base.1=C\:\\Users\\a\\Desktop\\temp\\babsajuseyo\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
+base.0=C\:\\Users\\a\\Desktop\\temp\\babsajuseyo\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex

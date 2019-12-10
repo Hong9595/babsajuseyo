@@ -57,8 +57,8 @@ class RestaurantViewHolder(view: View) : RecyclerView.ViewHolder(view){
 //            "https://t1.daumcdn.net/thumb/R720x0/?fname=http://t1.daumcdn.net/brunch/service/user/12xD/image/cozOd3VCSooVzbPKtpE9TPIHUUo.JPG"
             Glide.with(this)
                 .load(data.imageUrl)
-                .override(720,720)
-                .fitCenter()
+//                .override(720,720)
+//                .fitCenter()
                 .into(restaurantImage)
 
             restaurantName.text = data.title
