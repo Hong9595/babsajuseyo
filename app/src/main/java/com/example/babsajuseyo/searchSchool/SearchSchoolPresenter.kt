@@ -8,6 +8,7 @@ import io.reactivex.internal.util.HalfSerializer.onNext
 import io.reactivex.observers.DisposableObserver
 import io.reactivex.rxkotlin.plusAssign
 import io.reactivex.rxkotlin.subscribeBy
+import timber.log.Timber
 
 class SearchSchoolPresenter : BasePresenter<SearchSchoolContract.View>(),SearchSchoolContract.Presenter {
     private val firestoreRepo by lazy {
@@ -17,11 +18,9 @@ class SearchSchoolPresenter : BasePresenter<SearchSchoolContract.View>(),SearchS
         compositeDisposble += firestoreRepo.getNearbySchoolRestaurant(searchText)
             .observeOn(AndroidSchedulers.mainThread())
             .subscribeBy (
-                onNext = { view?.showNearbyRestaurant(it) },
-                onError = {},
-                onComplete = {}
+                onSuccess = { view?.showNearbyRestaurant(it)},
+                onComplete = {},
+                onError = { Timber.e(it) }
             )
-
-//        view?.loadNearbyRestaurant()
     }
 }

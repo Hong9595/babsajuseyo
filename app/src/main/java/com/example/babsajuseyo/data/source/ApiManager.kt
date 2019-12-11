@@ -36,9 +36,4 @@ object ApiManager{
     val restaurantApi: RestaurantApi by lazy{
         restaurantAdapter.create(RestaurantApi::class.java)
     }
-
-
-
-
-
 }

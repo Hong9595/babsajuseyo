@@ -9,6 +9,7 @@ import com.example.babsajuseyo.entity.RestaurantData
 import com.example.babsajuseyo.restaurantList.RestaurantListActivity
 import com.example.babsajuseyo.util.Constants
 import com.google.firebase.firestore.FirebaseFirestore
+import io.reactivex.Maybe
 import kotlinx.android.synthetic.main.activity_main.*
 import org.apache.poi.hssf.usermodel.HSSFCell
 import org.apache.poi.hssf.usermodel.HSSFRow
@@ -34,6 +35,7 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this,RestaurantListActivity::class.java)
             startActivity(intent)
         }
+
 //        readExcelFileFromAssets()
 //        putExcelData()
     }
